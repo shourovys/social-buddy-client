@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  gap: 1rem;
+}
+.form__input {
+  min-width: 18rem;
+}
+.ant-form-item-explain,
+.ant-form-item-explain-error {
+  position: absolute !important;
+}
+.google__login__btn {
+  width: 18rem;
+  max-width: 90vw;
+  margin-left: -14px;
+}
+.login__bth {
+  width: 18rem;
+  max-width: 90vw;
+  /* margin-left: -12px; */
+}
